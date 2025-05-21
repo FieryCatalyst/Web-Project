@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#4361ee">
+    <title>Media Agency - Professional Template</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Media<span>Agency</span></div>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content reveal">
+                <h1>Creative Solutions for Your Digital Presence</h1>
+                <p>We help brands thrive in the digital world by creating stunning visuals, engaging content, and effective marketing strategies.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">View Our Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Creative team collaborating">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>We offer a wide range of digital services to help your business grow</p>
+            </div>
+            
+            <div class="services-wrapper">
+                <div class="services-bg-shape"></div>
+                
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <div class="service-card-inner">
+                            <div class="service-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <h3>Graphic Design</h3>
+                            <p>Creative designs that communicate your brand's message effectively to your target audience.</p>
+                            <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="service-card-bg"></div>
+                    </div>
+                    
+                    <div class="service-card reveal reveal-delay-1">
+                        <div class="service-card-inner">
+                            <div class="service-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <p>Custom websites that are responsive, fast, and optimized for search engines and conversions.</p>
+                            <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="service-card-bg"></div>
+                    </div>
+                    
+                    <div class="service-card reveal reveal-delay-2">
+                        <div class="service-card-inner">
+                            <div class="service-icon">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h3>Digital Marketing</h3>
+                            <p>Data-driven marketing campaigns that increase your online visibility and drive qualified traffic.</p>
+                            <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="service-card-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Portfolio</h2>
+                <p>Check out our latest work and projects</p>
+            </div>
+            
+            <div class="portfolio-filter-container">
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="marketing">Marketing</button>
+                </div>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item reveal" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Web Design Project">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web Design</span>
+                            <h3>E-Commerce Website</h3>
+                            <p>Modern online store with seamless user experience</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" aria-label="View details"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link" aria-label="View live site"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item reveal reveal-delay-1" data-category="graphic">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Graphic Design Project">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Graphic Design</span>
+                            <h3>Brand Identity</h3>
+                            <p>Complete visual identity design for startup company</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" aria-label="View details"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link" aria-label="View live site"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item reveal reveal-delay-2" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1606312619070-d48b4c652a52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Branding Project - Product Packaging">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Branding</span>
+                            <h3>Product Packaging</h3>
+                            <p>Premium packaging design for consumer products</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" aria-label="View details"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link" aria-label="View live site"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item reveal" data-category="marketing">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1557838923-2985c318be48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Marketing Project">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Marketing</span>
+                            <h3>Social Media Campaign</h3>
+                            <p>Cohesive marketing strategy across multiple platforms</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" aria-label="View details"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link" aria-label="View live site"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item reveal reveal-delay-1" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mobile App UI">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Web Design</span>
+                            <h3>Mobile App UI</h3>
+                            <p>Intuitive interface design for health tracking app</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" aria-label="View details"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link" aria-label="View live site"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item reveal reveal-delay-2" data-category="graphic">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Illustration Project">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Graphic Design</span>
+                            <h3>Illustration Collection</h3>
+                            <p>Series of custom illustrations for digital magazine</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" aria-label="View details"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="portfolio-link" aria-label="View live site"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Fix the button container -->
+            <div class="portfolio-btn-container">
+                <a href="#" class="btn btn-portfolio">View All Projects <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>We value the relationships we build with our clients</p>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial active">
+                    <div class="testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Sarah Johnson">
+                    </div>
+                    <p class="testimonial-text">The team at MediaAgency delivered exceptional results for our brand. Their creative approach and attention to detail exceeded our expectations.</p>
+                    <h4 class="testimonial-name">Sarah Johnson</h4>
+                    <p class="testimonial-position">Marketing Director, ABC Company</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Michael Brown">
+                    </div>
+                    <p class="testimonial-text">Working with MediaAgency has been a game-changer for our business. Their strategic insights and creative solutions have significantly improved our online presence.</p>
+                    <h4 class="testimonial-name">Michael Brown</h4>
+                    <p class="testimonial-position">CEO, XYZ Enterprises</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="Emily Chen">
+                    </div>
+                    <p class="testimonial-text">The website they developed for us not only looks amazing but also performs exceptionally well. Our conversion rates have increased by 30% since the launch.</p>
+                    <h4 class="testimonial-name">Emily Chen</h4>
+                    <p class="testimonial-position">Founder, Tech Innovations</p>
+                </div>
+                <div class="testimonial-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss how we can help your business grow</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info reveal">
+                    <div class="contact-info-header">
+                        <h3>Contact Information</h3>
+                        <p>Reach out to us using any of the following methods</p>
+                    </div>
+                    <div class="contact-info-content">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Our Location</h4>
+                                <p>123 Business Avenue, Downtown, NY 10001</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:info@mediaagency.com">info@mediaagency.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form reveal reveal-delay-1">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+                                <div class="error-message" id="name-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+                                <div class="error-message" id="email-error"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Service Required</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="" disabled selected>Select Service</option>
+                                <option value="Graphic Design">Graphic Design</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="error-message" id="subject-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Tell us about your project..." rows="5" required></textarea>
+                            <div class="error-message" id="message-error"></div>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-submit">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div id="form-success" class="success-message" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Thank you! Your message has been sent successfully.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Team</h2>
+                <p>Meet the talented individuals behind our success</p>
+            </div>
+            
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-member reveal">
+                    <div class="team-member-card">
+                        <div class="team-member-img">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="John Anderson - CEO">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-info">
+                            <h3 class="team-member-name">John Anderson</h3>
+                            <p class="team-member-position">CEO & Founder</p>
+                            <p class="team-member-bio">A creative visionary with over 15 years of experience in digital marketing and business development.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="team-member reveal reveal-delay-1">
+                    <div class="team-member-card">
+                        <div class="team-member-img">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Emily Rodriguez - Creative Director">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-info">
+                            <h3 class="team-member-name">Emily Rodriguez</h3>
+                            <p class="team-member-position">Creative Director</p>
+                            <p class="team-member-bio">Award-winning designer who brings brands to life through innovative visual concepts and strategies.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="team-member reveal reveal-delay-2">
+                    <div class="team-member-card">
+                        <div class="team-member-img">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Michael Zhang - Tech Lead">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-info">
+                            <h3 class="team-member-name">Michael Zhang</h3>
+                            <p class="team-member-position">Tech Lead</p>
+                            <p class="team-member-bio">Full-stack developer with expertise in creating seamless digital experiences for global brands.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Team Member 4 -->
+                <div class="team-member reveal">
+                    <div class="team-member-card">
+                        <div class="team-member-img">
+                            <img src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sarah Johnson - Marketing Strategist">
+                            <div class="team-social">
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-member-info">
+                            <h3 class="team-member-name">Sarah Johnson</h3>
+                            <p class="team-member-position">Marketing Strategist</p>
+                            <p class="team-member-bio">Data-driven marketer who specializes in crafting campaigns that deliver exceptional ROI.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo-area">
+                    <div class="footer-logo">Media<span>Agency</span></div>
+                    <p>Creating exceptional digital experiences since 2015</p>
+                </div>
+                
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MediaAgency. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
